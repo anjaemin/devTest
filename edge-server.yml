@@ -2,6 +2,8 @@ server:
   port: 9000
 
 zuul:
+  debug:
+    request: true
   ignoredServices: '*'
   routes:
     composite:
