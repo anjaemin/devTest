@@ -14,5 +14,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 60000
 ribbon:
+  restclient: 
+    enabled: true
   ConnectionTimeout: 3000
   ReadTimeout: 60000
