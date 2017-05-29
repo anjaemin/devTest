@@ -3,12 +3,10 @@ server:
   port: 9000
 
 zuul:
-  #debug:
-  #  request: true
   ignoredServices: '*'
-  #routes:
-  #  composite:
-  #    path: /composite/**
+  routes:
+    composite:
+      path: /composite/**
 hystrix:
   command:
     default:
